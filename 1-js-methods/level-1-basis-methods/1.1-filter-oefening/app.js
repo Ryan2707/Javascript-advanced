@@ -6,6 +6,7 @@ console.log('Originele array:', getallen);
 
 // TODO: Filter de even getallen
 const evenGetallen = /* jouw code hier */
+getallen.filter(getal => getal % 2 === 0);
 
 console.log('Even getallen:', evenGetallen);
 console.log('Verwacht resultaat: [2, 4, 6, 8, 10]');
