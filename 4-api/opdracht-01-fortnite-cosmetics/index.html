@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Opdracht 1 - Fortnite Cosmetics</title>
+  <title>Fortnite Cosmetics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: black;
+    }
+    #cosmetics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .item {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      width: 180px;
+      text-align: center;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    .item img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-  
+  <h1>Fortnite Cosmetics</h1>
+  <div id="cosmetics"></div>
+
+  <script src="app.js"></script>
 </body>
 </html>
